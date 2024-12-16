@@ -1,0 +1,2 @@
+function foo(a,b){return a+b;}console.log(foo(1, "2")); // Output: 12
+This happens because JavaScript uses type coercion when you use the + operator with different types. It converts the number 1 to a string "1" and then concatenates it with the string "2". To add them as numbers use parseInt() or Number()
